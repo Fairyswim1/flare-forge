@@ -1,12 +1,13 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T06:33:22.188946+00:00",
-  "sourceHash": "70b5525be694f214fc151790a742f3f3e3a0d1c75cbe74f184e0b16a02a07cb8",
+  "sourceHash": "e78207d25b7b98ddb66ad805d7d1006e6f385988e6d229a4f3cda1b5a7829e76",
   "screenshots": [
     "evidence/mobile.png",
     "evidence/flare-final-mobile.png",
     "evidence/flare-goal-desktop.png",
-    "evidence/flare-goal-mobile.png"
+    "evidence/flare-goal-mobile.png",
+    "evidence/flare-division-desktop.png"
   ],
   "browser": "Chrome via CUA",
   "campaign": {
@@ -73,6 +74,24 @@
       7
     ],
     "condition": "이 돌 하나만 남기면 성공!",
+    "consoleErrors": []
+  },
+  "divisionOrderReview": {
+    "checkedAt": "2026-11-05T09:48:34.053067+00:00",
+    "previousSourceHash": "70b5525be694f214fc151790a742f3f3e3a0d1c75cbe74f184e0b16a02a07cb8",
+    "scope": "Explicit click-order instructions, live operand expression, disabled-reason and numbered badges; engine unchanged",
+    "actualUI": [
+      "a then a^2 disables division and explains negative exponent scope",
+      "a^2 then a yields a in second cell and clears first",
+      "a then a yields1 in second cell"
+    ],
+    "mobile": {
+      "width": 390,
+      "overflow": false,
+      "instructionWidth": 320,
+      "instructionHeight": 155,
+      "method": "DOM and actual interactions; mobile screenshot capture timed out, desktop screenshot verified"
+    },
     "consoleErrors": []
   }
 }

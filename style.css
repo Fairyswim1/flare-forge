@@ -9,3 +9,7 @@
 #goal.goal-stone{display:grid;place-items:center;flex:0 0 112px;width:112px;height:112px;font-size:48px;font-weight:400;color:#392518;background:url(assets/atlas.png) 8.333% 8.333%/250% 250% no-repeat}
 #goal .katex{font-size:1em}.goal-copy{font-family:var(--font-hud);line-height:1.25}.goal-copy>span{font-size:16px;color:#ffcf89}.goal-copy p{margin:4px 0;font-size:27px;color:#fff4d7}.goal-copy strong{font-weight:400;color:#ffd177}
 @media(max-width:760px){.goal-banner{gap:14px;padding:6px 10px;margin:10px 0 4px}#goal.goal-stone{flex-basis:92px;width:92px;height:92px;font-size:40px}.goal-copy>span{font-size:15px}.goal-copy p{font-size:23px}}
+
+#division-order{max-width:650px;margin:0 auto 12px;padding:10px 16px;border-left:3px solid #d7ab71;background:#18142080;color:#fff0d7;font:17px/1.55 var(--font-body);word-break:keep-all}#division-order p{margin:0 0 6px;font-family:var(--font-hud);font-size:21px}#division-order small{font-size:16px}#division-order.unavailable{border-color:#ffc188;background:#55301f80}#div{white-space:nowrap}@media(max-width:760px){#division-order{font-size:16px;padding:10px 12px}#division-order p{font-size:19px}#division-order small{font-size:15px}}
+
+.stone small{display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:#392518;color:#fff4d3;border:1px solid #ffc56a;font:18px/1 var(--font-hud);top:15%;right:18%;box-shadow:0 2px 5px #0006}@media(max-width:760px){.stone small{width:22px;height:22px;font-size:16px;top:12%;right:14%}}
