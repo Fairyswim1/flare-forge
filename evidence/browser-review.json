@@ -1,9 +1,10 @@
 {
   "status": "passed",
-  "checkedAt": "2026-11-05T05:29:38.914Z",
-  "sourceHash": "3d7d73b4580de0ab4d1c78eef4163898568e23229dd32015742a5b09d8466f0e",
+  "checkedAt": "2026-11-05T06:33:22.188946+00:00",
+  "sourceHash": "77f6a3769cffaab2813218174f16e7e626bc669eaaade8170868f104d733abe7",
   "screenshots": [
-    "evidence/mobile.png"
+    "evidence/mobile.png",
+    "evidence/flare-final-mobile.png"
   ],
   "browser": "Chrome via CUA",
   "campaign": {
@@ -49,5 +50,12 @@
     "No student playtest.",
     "Desktop screenshot before atlas repair retained only as historical image; final mobile screenshot reflects repair.",
     "Only natural-exponent same-base multiplication/division subset in play."
-  ]
+  ],
+  "previousReviewSourceHash": "3d7d73b4580de0ab4d1c78eef4163898568e23229dd32015742a5b09d8466f0e",
+  "revisionReview": {
+    "scope": "Font aliases only; prior gameplay/assessment/audio review retained",
+    "mobileWidth": 390,
+    "font": "Jua",
+    "overflow": false
+  }
 }
