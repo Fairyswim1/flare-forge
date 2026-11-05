@@ -1,10 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T06:33:22.188946+00:00",
-  "sourceHash": "77f6a3769cffaab2813218174f16e7e626bc669eaaade8170868f104d733abe7",
+  "sourceHash": "70b5525be694f214fc151790a742f3f3e3a0d1c75cbe74f184e0b16a02a07cb8",
   "screenshots": [
     "evidence/mobile.png",
-    "evidence/flare-final-mobile.png"
+    "evidence/flare-final-mobile.png",
+    "evidence/flare-goal-desktop.png",
+    "evidence/flare-goal-mobile.png"
   ],
   "browser": "Chrome via CUA",
   "campaign": {
@@ -57,5 +59,20 @@
     "mobileWidth": 390,
     "font": "Jua",
     "overflow": false
+  },
+  "goalVisibilityReview": {
+    "checkedAt": "2026-11-05T07:23:38.124482+00:00",
+    "previousSourceHash": "77f6a3769cffaab2813218174f16e7e626bc669eaaade8170868f104d733abe7",
+    "scope": "Goal display only; gameplay and assessment unchanged",
+    "desktopFontPx": 48,
+    "mobileFontPx": 40,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "roundTargets": [
+      2,
+      7
+    ],
+    "condition": "이 돌 하나만 남기면 성공!",
+    "consoleErrors": []
   }
 }

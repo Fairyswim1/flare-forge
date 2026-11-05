@@ -3,3 +3,9 @@
 .stone{background-size:250% 250%;background-position:8.333% 8.333%}.sprite{background-size:250% 250%;aspect-ratio:1}.guide{background-position:8.333% 91.667%}.reward{background-position:91.667% 91.667%}#rounds button{background-size:250% 250%;background-position:91.667% 8.333%}.stone small{right:24%;top:20%}
 
 :root{--font-body:var(--font-game-body);--font-title:var(--font-game-title);--font-hud:var(--font-game-display)}
+
+/* Keep the win condition directly above the board, readable at every round. */
+.goal-banner{display:flex;align-items:center;justify-content:center;gap:22px;margin:12px 0 4px;padding:8px 16px;border:1px solid #d9a15b;border-radius:18px;background:linear-gradient(110deg,#4e2d2b,#302230);box-shadow:inset 0 0 24px #f2a14b10}
+#goal.goal-stone{display:grid;place-items:center;flex:0 0 112px;width:112px;height:112px;font-size:48px;font-weight:400;color:#392518;background:url(assets/atlas.png) 8.333% 8.333%/250% 250% no-repeat}
+#goal .katex{font-size:1em}.goal-copy{font-family:var(--font-hud);line-height:1.25}.goal-copy>span{font-size:16px;color:#ffcf89}.goal-copy p{margin:4px 0;font-size:27px;color:#fff4d7}.goal-copy strong{font-weight:400;color:#ffd177}
+@media(max-width:760px){.goal-banner{gap:14px;padding:6px 10px;margin:10px 0 4px}#goal.goal-stone{flex-basis:92px;width:92px;height:92px;font-size:40px}.goal-copy>span{font-size:15px}.goal-copy p{font-size:23px}}
