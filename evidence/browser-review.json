@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T06:33:22.188946+00:00",
-  "sourceHash": "e78207d25b7b98ddb66ad805d7d1006e6f385988e6d229a4f3cda1b5a7829e76",
+  "sourceHash": "4bb6413d2ce2872bfe170d8718d207925bb9ff4db57e61a5333f67e54177fd3e",
   "screenshots": [
     "evidence/mobile.png",
     "evidence/flare-final-mobile.png",
@@ -93,5 +93,37 @@
       "method": "DOM and actual interactions; mobile screenshot capture timed out, desktop screenshot verified"
     },
     "consoleErrors": []
+  },
+  "compactLayoutReview": {
+    "checkedAt": "2026-11-05T10:06:30.708754+00:00",
+    "scope": "Header, one-row round strip, responsive board/control placement and collapsed instructions; gameplay unchanged",
+    "desktop": {
+      "width": 1365,
+      "height": 768,
+      "scrollY": 0,
+      "boardBottom": 710.45,
+      "resetBottom": 426.09,
+      "all12RoundsOnOneRow": true,
+      "overflow": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollY": 0,
+      "boardBottom": 584.55,
+      "resetBottom": 721.99,
+      "overflow": false,
+      "roundStrip": "one horizontally scrollable row"
+    },
+    "actualPlay": [
+      "round4 division and undo",
+      "mobile tutorial first success a^2 times a^3 = a^5",
+      "tutorial returns to round4 and preserves 4 collected rewards"
+    ],
+    "consoleErrors": [],
+    "screenshots": [
+      "compact-desktop.png",
+      "compact-mobile.png"
+    ]
   }
 }

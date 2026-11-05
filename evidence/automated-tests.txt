@@ -2,117 +2,117 @@ TAP version 13
 # Subtest: Round 1: independent numeric arithmetic and legal geometry
 ok 1 - Round 1: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 3.5326
+  duration_ms: 2.7594
   ...
 # Subtest: Round 2: independent numeric arithmetic and legal geometry
 ok 2 - Round 2: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.336
+  duration_ms: 0.3517
   ...
 # Subtest: Round 3: independent numeric arithmetic and legal geometry
 ok 3 - Round 3: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.2741
+  duration_ms: 0.2743
   ...
 # Subtest: Round 4: independent numeric arithmetic and legal geometry
 ok 4 - Round 4: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.2634
+  duration_ms: 0.2705
   ...
 # Subtest: Round 5: independent numeric arithmetic and legal geometry
 ok 5 - Round 5: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.2834
+  duration_ms: 0.2894
   ...
 # Subtest: Round 6: independent numeric arithmetic and legal geometry
 ok 6 - Round 6: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.8316
+  duration_ms: 0.8819
   ...
 # Subtest: Round 7: independent numeric arithmetic and legal geometry
 ok 7 - Round 7: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.2846
+  duration_ms: 0.252
   ...
 # Subtest: Round 8: independent numeric arithmetic and legal geometry
 ok 8 - Round 8: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.158
+  duration_ms: 0.1559
   ...
 # Subtest: Round 9: independent numeric arithmetic and legal geometry
 ok 9 - Round 9: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.3805
+  duration_ms: 0.3849
   ...
 # Subtest: Round 10: independent numeric arithmetic and legal geometry
 ok 10 - Round 10: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.5573
+  duration_ms: 0.445
   ...
 # Subtest: Round 11: independent numeric arithmetic and legal geometry
 ok 11 - Round 11: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.3704
+  duration_ms: 0.2472
   ...
 # Subtest: Round 12: independent numeric arithmetic and legal geometry
 ok 12 - Round 12: independent numeric arithmetic and legal geometry
   ---
-  duration_ms: 0.1611
+  duration_ms: 0.1588
   ...
 # Subtest: All boards have different starting layouts and solvable practice
 ok 13 - All boards have different starting layouts and solvable practice
   ---
-  duration_ms: 0.1814
+  duration_ms: 0.179
   ...
 # Subtest: Multiplying first available pair is not a universal winning strategy
 ok 14 - Multiplying first available pair is not a universal winning strategy
   ---
-  duration_ms: 0.879
+  duration_ms: 0.8169
   ...
 # Subtest: A legal local merge can isolate future resources; undo recovers solvability
 ok 15 - A legal local merge can isolate future resources; undo recovers solvability
   ---
-  duration_ms: 1.4093
+  duration_ms: 1.1156
   ...
 # Subtest: No diagonal captures or division introducing unsupported negative exponent
 ok 16 - No diagonal captures or division introducing unsupported negative exponent
   ---
-  duration_ms: 0.2959
+  duration_ms: 0.1352
   ...
 # Subtest: Independent task u1
 ok 17 - Independent task u1
   ---
-  duration_ms: 3.1863
+  duration_ms: 2.4078
   ...
 # Subtest: Independent task u2
 ok 18 - Independent task u2
   ---
-  duration_ms: 0.1928
+  duration_ms: 0.1246
   ...
 # Subtest: Independent task u3
 ok 19 - Independent task u3
   ---
-  duration_ms: 0.1518
+  duration_ms: 0.0975
   ...
 # Subtest: Independent task u4
 ok 20 - Independent task u4
   ---
-  duration_ms: 0.1352
+  duration_ms: 0.0904
   ...
 # Subtest: Independent task u5
 ok 21 - Independent task u5
   ---
-  duration_ms: 0.2118
+  duration_ms: 0.139
   ...
 # Subtest: Independent task u6
 ok 22 - Independent task u6
   ---
-  duration_ms: 0.1141
+  duration_ms: 0.0731
   ...
 # Subtest: Division follows click order, leaves the quotient in second cell, and permits equal exponents
 ok 23 - Division follows click order, leaves the quotient in second cell, and permits equal exponents
   ---
-  duration_ms: 0.2599
+  duration_ms: 0.1798
   ...
 1..23
 # tests 23
@@ -122,4 +122,4 @@ ok 23 - Division follows click order, leaves the quotient in second cell, and pe
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 226.3422
+# duration_ms 118.6925
