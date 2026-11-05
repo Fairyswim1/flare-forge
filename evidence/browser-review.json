@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T05:29:38.914Z",
+  "sourceHash": "3d7d73b4580de0ab4d1c78eef4163898568e23229dd32015742a5b09d8466f0e",
+  "screenshots": [
+    "evidence/mobile.png"
+  ],
+  "browser": "Chrome via CUA",
+  "campaign": {
+    "rounds": 12,
+    "allSolutions": "Independent BigInt numeric oracle tests all 12; live UI wins rounds 1–4",
+    "failure": true,
+    "undo": true,
+    "persistence": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "mobile": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "isolated": true
+  },
+  "assessment": {
+    "codes": [
+      "9수02-08"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "jsonUiRemoved": true,
+    "details": "All 6 tasks submitted via UI; u1 wrong/hint/retry excluded, report 1/2,2/2,2/2. Explanation and review persist. Readable export button clicked."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "notes": "KaTeX superscripts, dark text on ivory generated tiles; 390px no horizontal overflow. Recreated atlas to remove white matte."
+  },
+  "audio": {
+    "focus": true,
+    "energy": true,
+    "continuous": true,
+    "effectsSignal": true
+  },
+  "limits": [
+    "No student playtest.",
+    "Desktop screenshot before atlas repair retained only as historical image; final mobile screenshot reflects repair.",
+    "Only natural-exponent same-base multiplication/division subset in play."
+  ]
+}

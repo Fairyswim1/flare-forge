@@ -1,0 +1,36 @@
+{
+  "id": "flare-forge",
+  "title": "플레어 포지",
+  "subtitle": "거듭제곱의 불꽃",
+  "grade": 2,
+  "unit": "2-1·2-2 지수법칙",
+  "category": "변화와 관계",
+  "version": "1.0.0",
+  "description": "이웃한 거듭제곱 돌을 곱하거나 나누어 목표 돌 하나를 남기는 퍼즐. 연산과 돌이 남을 자리를 함께 골라 열두 별꽃을 피우며 지수법칙을 연습해요.",
+  "tags": [
+    "지수법칙",
+    "연산 순서",
+    "조각 합치기"
+  ],
+  "duration": "20–35분",
+  "assets": [
+    "assets/background.png",
+    "assets/atlas.png",
+    "assets/button.png"
+  ],
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "character": "assets/atlas.png bottom-left",
+    "item": "assets/atlas.png top-left",
+    "round": "assets/atlas.png top-right",
+    "reward": "assets/atlas.png bottom-right",
+    "button": "assets/button.png"
+  },
+  "repository": "https://github.com/Fairyswim1/flare-forge",
+  "repositoryStatus": "created"
+}

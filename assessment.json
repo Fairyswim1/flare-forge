@@ -1,0 +1,62 @@
+{
+  "game": "flare-forge",
+  "version": "2026.11.05.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": {
+      "pdf": "53–55",
+      "printed": "47–49"
+    }
+  },
+  "standards": [
+    {
+      "code": "9수02-08",
+      "text": "지수법칙을 이해하고, 이를 이용하여 식을 간단히 할 수 있다.",
+      "page": {
+        "pdf": 41,
+        "printed": 35
+      },
+      "commentaryReview": {
+        "pdf": [
+          42,
+          43
+        ],
+        "note": "지수가 자연수인 범위에서 단항식 곱셈·나눗셈에 필요한 정도. 0 지수 표기 대신 같은 거듭제곱의 몫 1로 표시."
+      },
+      "skills": {
+        "multiply": {
+          "tasks": [
+            "u1",
+            "u2"
+          ],
+          "evidence": "같은 밑의 곱셈"
+        },
+        "divide": {
+          "tasks": [
+            "u3",
+            "u4"
+          ],
+          "evidence": "같은 밑의 나눗셈"
+        },
+        "principle": {
+          "tasks": [
+            "u5",
+            "u6"
+          ],
+          "evidence": "법칙의 조건과 원리"
+        }
+      },
+      "rubric": "곱셈은 인수 개수 합, 나눗셈은 약분. 같은 수의 몫 1과 분모 0 제외 설명. 설명은 사람 검토.",
+      "limit": "게임은 같은 밑의 곱셈과 몫이 1 이상인 경우, 독립 과제는 역수 및 거듭제곱 구별 일부. 곱·몫의 거듭제곱 전체는 미확인. 공식 이수 판정 아님."
+    }
+  ],
+  "recordPolicy": {
+    "firstResponse": true,
+    "helpExcluded": true,
+    "retryExcluded": true,
+    "studentExplanation": true,
+    "teacherReview": "함께 읽고 남긴 말",
+    "export": "readable HTML/print"
+  }
+}

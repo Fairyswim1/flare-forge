@@ -1,0 +1,120 @@
+TAP version 13
+# Subtest: Round 1: independent numeric arithmetic and legal geometry
+ok 1 - Round 1: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 3.6371
+  ...
+# Subtest: Round 2: independent numeric arithmetic and legal geometry
+ok 2 - Round 2: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.3013
+  ...
+# Subtest: Round 3: independent numeric arithmetic and legal geometry
+ok 3 - Round 3: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2585
+  ...
+# Subtest: Round 4: independent numeric arithmetic and legal geometry
+ok 4 - Round 4: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2529
+  ...
+# Subtest: Round 5: independent numeric arithmetic and legal geometry
+ok 5 - Round 5: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2759
+  ...
+# Subtest: Round 6: independent numeric arithmetic and legal geometry
+ok 6 - Round 6: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.7793
+  ...
+# Subtest: Round 7: independent numeric arithmetic and legal geometry
+ok 7 - Round 7: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2348
+  ...
+# Subtest: Round 8: independent numeric arithmetic and legal geometry
+ok 8 - Round 8: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.1533
+  ...
+# Subtest: Round 9: independent numeric arithmetic and legal geometry
+ok 9 - Round 9: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.3616
+  ...
+# Subtest: Round 10: independent numeric arithmetic and legal geometry
+ok 10 - Round 10: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.4512
+  ...
+# Subtest: Round 11: independent numeric arithmetic and legal geometry
+ok 11 - Round 11: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2352
+  ...
+# Subtest: Round 12: independent numeric arithmetic and legal geometry
+ok 12 - Round 12: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.1537
+  ...
+# Subtest: All boards have different starting layouts and solvable practice
+ok 13 - All boards have different starting layouts and solvable practice
+  ---
+  duration_ms: 0.1556
+  ...
+# Subtest: Multiplying first available pair is not a universal winning strategy
+ok 14 - Multiplying first available pair is not a universal winning strategy
+  ---
+  duration_ms: 0.7492
+  ...
+# Subtest: A legal local merge can isolate future resources; undo recovers solvability
+ok 15 - A legal local merge can isolate future resources; undo recovers solvability
+  ---
+  duration_ms: 1.0118
+  ...
+# Subtest: No diagonal captures or division introducing unsupported negative exponent
+ok 16 - No diagonal captures or division introducing unsupported negative exponent
+  ---
+  duration_ms: 0.1981
+  ...
+# Subtest: Independent task u1
+ok 17 - Independent task u1
+  ---
+  duration_ms: 2.4453
+  ...
+# Subtest: Independent task u2
+ok 18 - Independent task u2
+  ---
+  duration_ms: 0.1724
+  ...
+# Subtest: Independent task u3
+ok 19 - Independent task u3
+  ---
+  duration_ms: 0.1072
+  ...
+# Subtest: Independent task u4
+ok 20 - Independent task u4
+  ---
+  duration_ms: 0.1023
+  ...
+# Subtest: Independent task u5
+ok 21 - Independent task u5
+  ---
+  duration_ms: 0.1439
+  ...
+# Subtest: Independent task u6
+ok 22 - Independent task u6
+  ---
+  duration_ms: 0.0752
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 129.0582

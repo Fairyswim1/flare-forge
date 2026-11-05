@@ -1,0 +1,35 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "file": "미래엔_중학교수학2_교과서_2-1_지수법칙1.pdf",
+      "sha256": "bf3cab94f8b06382d669bbd824c9d01f8993e5e4750d14f9d826d687bd13d725",
+      "pdfPages": [
+        4,
+        5
+      ],
+      "printedPages": [
+        34,
+        35
+      ],
+      "review": "정의·인수 개수·나눗셈 세 경우 확인. 원문은 내부 보존."
+    },
+    {
+      "file": "미래엔_중학교수학2_교과서_2-2_지수법칙2.pdf",
+      "sha256": "65ec49df8d556330033d28567d78035f9e95834ae2e93b4ed5ea0f48a7f1dac7",
+      "pdfPages": [
+        1,
+        2
+      ],
+      "printedPages": [
+        38,
+        39
+      ],
+      "review": "정의·인수 개수·나눗셈 세 경우 확인. 원문은 내부 보존."
+    }
+  ],
+  "reviewImages": [
+    "curriculum/forge-law.png",
+    "curriculum/forge-divide.png"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "title": "호박빛 불씨",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "호박빛 불씨",
+    "root": 60,
+    "bpm": 72,
+    "color": "felt",
+    "minor": true,
+    "motif": [
+      0,
+      7,
+      3,
+      10,
+      12,
+      7,
+      5,
+      3
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 72,
+      "seconds": 53.333333333333336,
+      "peak": 0.234905846277919,
+      "rms": 0.05334808622818651,
+      "seamDelta": 0.0017450069543033069,
+      "sha256": "964f3bcdbf925b6aef6bd72c9b262689b6f6dbb6036dd498fff822d812d71ea2"
+    },
+    {
+      "mode": "energy",
+      "bpm": 96,
+      "seconds": 40.0,
+      "peak": 0.30068162931790454,
+      "rms": 0.06484597886207098,
+      "seamDelta": 0.0035460762891156745,
+      "sha256": "481cdb8ec3ca9eb93fa399034d57dff56de367090395eeaae9bd443fccb64a03"
+    }
+  ]
+}

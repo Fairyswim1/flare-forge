@@ -1,0 +1,26 @@
+{
+  "tool": "image_gen.imagegen",
+  "generatedAt": "2026-11-05",
+  "images": [
+    {
+      "file": "background.png",
+      "prompt": "Create a polished hand-painted fantasy puzzle game background, landscape 1536x1024. Flare Forge: a dreamy miniature astronomical smithy inside a hollow ancient tree, warm copper and amber embers, deep plum shadows, luminous suspended crystals, tiny flower-like sparks, beautiful curved handworked wood and bronze details at outer edges. Large quiet dark central space for an overlaid game board. Charming storybook gouache and painterly mobile game art, tasteful restrained glow, sophisticated Korean educational game aesthetic, no characters, no text, no letters, no numbers, no logos, not a UI mockup. Full bleed background.",
+      "role": "background"
+    },
+    {
+      "file": "atlas.png",
+      "prompt": "One transparent PNG game sprite sheet, exactly 2 columns by 2 rows of four isolated objects centered in equally sized quadrants, wide empty gutters, no overlaps. Painterly premium fantasy board game art matching a copper and amber woodland smithy. TOP LEFT: a square ivory ceramic game tile in ornate bronze frame, large completely blank light center, straight front view. TOP RIGHT: a circular bronze sun medal with empty cream center for a round number. BOTTOM LEFT: adorable tiny ember fox blacksmith with amber eyes and copper apron, full body. BOTTOM RIGHT: a magnificent glowing amber flower crystal collectible. All objects fully inside their quadrant, no words, no letters, no numerals, no shadows spilling across quadrants. Actual transparent background, high detail but readable silhouettes.",
+      "role": "item, round navigation, character, reward"
+    },
+    {
+      "file": "button.png",
+      "prompt": "Single wide horizontal fantasy game button, isolated on a transparent background. Ratio around 4:1. Carved warm bronze and copper curved frame with small amber flame gems at ends, smooth light ivory parchment center taking 70 percent of button width, blank space for dark Korean text to be added in code. Elegant handcrafted enchanted smithy artifact, premium painterly game UI, soft bevels, restrained glow. Entire button visible with small margins, no text, no letters, no icons in center, no watermark.",
+      "role": "controls"
+    },
+    {
+      "file": "atlas.png",
+      "kind": "edit",
+      "prompt": "Edit this sprite sheet. Remove ALL the white background completely to real zero-alpha transparency around the four objects, no white matte or paper squares. Keep exact same four artwork designs and colors. Layout on square canvas, exactly four equal square quadrants 2 by 2; shrink each object to occupy at most 70 percent of its quadrant width and height, center it so NO object crosses its quadrant boundary and there is generous transparent gutter. Tile at top left, sun medal top right, fox bottom left, amber crystal flower bottom right. No new elements, no text. All outside pixels must be fully transparent."
+    }
+  ]
+}
