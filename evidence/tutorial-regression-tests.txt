@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: Round 1: independent numeric arithmetic and legal geometry
+ok 1 - Round 1: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 2.5729
+  ...
+# Subtest: Round 2: independent numeric arithmetic and legal geometry
+ok 2 - Round 2: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2802
+  ...
+# Subtest: Round 3: independent numeric arithmetic and legal geometry
+ok 3 - Round 3: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2604
+  ...
+# Subtest: Round 4: independent numeric arithmetic and legal geometry
+ok 4 - Round 4: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2576
+  ...
+# Subtest: Round 5: independent numeric arithmetic and legal geometry
+ok 5 - Round 5: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2647
+  ...
+# Subtest: Round 6: independent numeric arithmetic and legal geometry
+ok 6 - Round 6: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.7704
+  ...
+# Subtest: Round 7: independent numeric arithmetic and legal geometry
+ok 7 - Round 7: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2469
+  ...
+# Subtest: Round 8: independent numeric arithmetic and legal geometry
+ok 8 - Round 8: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.1549
+  ...
+# Subtest: Round 9: independent numeric arithmetic and legal geometry
+ok 9 - Round 9: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.3767
+  ...
+# Subtest: Round 10: independent numeric arithmetic and legal geometry
+ok 10 - Round 10: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.4508
+  ...
+# Subtest: Round 11: independent numeric arithmetic and legal geometry
+ok 11 - Round 11: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.2425
+  ...
+# Subtest: Round 12: independent numeric arithmetic and legal geometry
+ok 12 - Round 12: independent numeric arithmetic and legal geometry
+  ---
+  duration_ms: 0.1547
+  ...
+# Subtest: All boards have different starting layouts and solvable practice
+ok 13 - All boards have different starting layouts and solvable practice
+  ---
+  duration_ms: 0.1511
+  ...
+# Subtest: Multiplying first available pair is not a universal winning strategy
+ok 14 - Multiplying first available pair is not a universal winning strategy
+  ---
+  duration_ms: 0.7582
+  ...
+# Subtest: A legal local merge can isolate future resources; undo recovers solvability
+ok 15 - A legal local merge can isolate future resources; undo recovers solvability
+  ---
+  duration_ms: 1.019
+  ...
+# Subtest: No diagonal captures or division introducing unsupported negative exponent
+ok 16 - No diagonal captures or division introducing unsupported negative exponent
+  ---
+  duration_ms: 0.1136
+  ...
+# Subtest: Independent task u1
+ok 17 - Independent task u1
+  ---
+  duration_ms: 2.7447
+  ...
+# Subtest: Independent task u2
+ok 18 - Independent task u2
+  ---
+  duration_ms: 0.1183
+  ...
+# Subtest: Independent task u3
+ok 19 - Independent task u3
+  ---
+  duration_ms: 0.1006
+  ...
+# Subtest: Independent task u4
+ok 20 - Independent task u4
+  ---
+  duration_ms: 0.0915
+  ...
+# Subtest: Independent task u5
+ok 21 - Independent task u5
+  ---
+  duration_ms: 0.1497
+  ...
+# Subtest: Independent task u6
+ok 22 - Independent task u6
+  ---
+  duration_ms: 0.0746
+  ...
+# Subtest: Division follows click order, leaves the quotient in second cell, and permits equal exponents
+ok 23 - Division follows click order, leaves the quotient in second cell, and permits equal exponents
+  ---
+  duration_ms: 0.1852
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 24 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 1.3702
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 25 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 0.7855
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 26 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 2.6957
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 27 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 0.5159
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 28 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3184
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 29 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.3761
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 30 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.3801
+  ...
+1..30
+# tests 30
+# suites 0
+# pass 30
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 128.4107

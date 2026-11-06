@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-11-05T06:33:22.188946+00:00",
+  "sourceHash": "4bb6413d2ce2872bfe170d8718d207925bb9ff4db57e61a5333f67e54177fd3e",
+  "screenshots": [
+    "evidence/mobile.png",
+    "evidence/flare-final-mobile.png",
+    "evidence/flare-goal-desktop.png",
+    "evidence/flare-goal-mobile.png",
+    "evidence/flare-division-desktop.png"
+  ],
+  "browser": "Chrome via CUA",
+  "campaign": {
+    "rounds": 12,
+    "allSolutions": "Independent BigInt numeric oracle tests all 12; live UI wins rounds 1–4",
+    "failure": true,
+    "undo": true,
+    "persistence": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "keyboard": true,
+    "mobile": true,
+    "actualPracticeWin": true,
+    "replay": true,
+    "isolated": true
+  },
+  "assessment": {
+    "codes": [
+      "9수02-08"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "mobile": true,
+    "jsonUiRemoved": true,
+    "details": "All 6 tasks submitted via UI; u1 wrong/hint/retry excluded, report 1/2,2/2,2/2. Explanation and review persist. Readable export button clicked."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "notes": "KaTeX superscripts, dark text on ivory generated tiles; 390px no horizontal overflow. Recreated atlas to remove white matte."
+  },
+  "audio": {
+    "focus": true,
+    "energy": true,
+    "continuous": true,
+    "effectsSignal": true
+  },
+  "limits": [
+    "No student playtest.",
+    "Desktop screenshot before atlas repair retained only as historical image; final mobile screenshot reflects repair.",
+    "Only natural-exponent same-base multiplication/division subset in play."
+  ],
+  "previousReviewSourceHash": "3d7d73b4580de0ab4d1c78eef4163898568e23229dd32015742a5b09d8466f0e",
+  "revisionReview": {
+    "scope": "Font aliases only; prior gameplay/assessment/audio review retained",
+    "mobileWidth": 390,
+    "font": "Jua",
+    "overflow": false
+  },
+  "goalVisibilityReview": {
+    "checkedAt": "2026-11-05T07:23:38.124482+00:00",
+    "previousSourceHash": "77f6a3769cffaab2813218174f16e7e626bc669eaaade8170868f104d733abe7",
+    "scope": "Goal display only; gameplay and assessment unchanged",
+    "desktopFontPx": 48,
+    "mobileFontPx": 40,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "roundTargets": [
+      2,
+      7
+    ],
+    "condition": "이 돌 하나만 남기면 성공!",
+    "consoleErrors": []
+  },
+  "divisionOrderReview": {
+    "checkedAt": "2026-11-05T09:48:34.053067+00:00",
+    "previousSourceHash": "70b5525be694f214fc151790a742f3f3e3a0d1c75cbe74f184e0b16a02a07cb8",
+    "scope": "Explicit click-order instructions, live operand expression, disabled-reason and numbered badges; engine unchanged",
+    "actualUI": [
+      "a then a^2 disables division and explains negative exponent scope",
+      "a^2 then a yields a in second cell and clears first",
+      "a then a yields1 in second cell"
+    ],
+    "mobile": {
+      "width": 390,
+      "overflow": false,
+      "instructionWidth": 320,
+      "instructionHeight": 155,
+      "method": "DOM and actual interactions; mobile screenshot capture timed out, desktop screenshot verified"
+    },
+    "consoleErrors": []
+  },
+  "compactLayoutReview": {
+    "checkedAt": "2026-11-05T10:06:30.708754+00:00",
+    "scope": "Header, one-row round strip, responsive board/control placement and collapsed instructions; gameplay unchanged",
+    "desktop": {
+      "width": 1365,
+      "height": 768,
+      "scrollY": 0,
+      "boardBottom": 710.45,
+      "resetBottom": 426.09,
+      "all12RoundsOnOneRow": true,
+      "overflow": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "scrollY": 0,
+      "boardBottom": 584.55,
+      "resetBottom": 721.99,
+      "overflow": false,
+      "roundStrip": "one horizontally scrollable row"
+    },
+    "actualPlay": [
+      "round4 division and undo",
+      "mobile tutorial first success a^2 times a^3 = a^5",
+      "tutorial returns to round4 and preserves 4 collected rewards"
+    ],
+    "consoleErrors": [],
+    "screenshots": [
+      "compact-desktop.png",
+      "compact-mobile.png"
+    ]
+  }
+}

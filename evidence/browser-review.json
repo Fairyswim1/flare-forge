@@ -1,13 +1,14 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-05T06:33:22.188946+00:00",
-  "sourceHash": "4bb6413d2ce2872bfe170d8718d207925bb9ff4db57e61a5333f67e54177fd3e",
+  "sourceHash": "7b21406ae3136a9171eb6c372be2df0e97355e7fd3f6fe7c7bfe9798a77c46bb",
   "screenshots": [
     "evidence/mobile.png",
     "evidence/flare-final-mobile.png",
     "evidence/flare-goal-desktop.png",
     "evidence/flare-goal-mobile.png",
-    "evidence/flare-division-desktop.png"
+    "evidence/flare-division-desktop.png",
+    "evidence/first-visit-mobile.png"
   ],
   "browser": "Chrome via CUA",
   "campaign": {
@@ -125,5 +126,17 @@
       "compact-desktop.png",
       "compact-mobile.png"
     ]
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:47.823Z",
+    "id": "flare-forge",
+    "firstVisitOff": true,
+    "startedStep": "목표 돌 하나를 남겨요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "4bb6413d2ce2872bfe170d8718d207925bb9ff4db57e61a5333f67e54177fd3e",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
